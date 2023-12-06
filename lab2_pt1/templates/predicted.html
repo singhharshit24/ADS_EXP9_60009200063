@@ -1,0 +1,9 @@
+{% extends "index.html" %}
+{% block body %}
+<div>
+    {% if img %}
+    <img src="{{img}}">
+    {% endif %}
+    <h4>Predicted Class = {{prediction}}</h4>
+</div>
+{% endblock body %}
